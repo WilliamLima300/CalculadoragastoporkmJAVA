@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 de out. de 2022, 16:18:04
+    Author     : William Lima Alves R.A 21123196-5
+*/
+
+body{
+    width:100%;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+}
+p{
+    font-size:14px;
+}
+
+.wrapper {
+    width:700px;
+    margin-top: 50px;
+    padding: 20px;
+    color: azure;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(91, 2, 2, 1) 100%, rgba(255, 0, 0, 1) 100%);
+    border-radius: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 8px;
+    padding:1px 3px;
+}
+
+.form-group input{
+    margin-left: 4px;
+    border: 1px solid #f8f8f8;
+}
+
+#reviewaverage{
+    margin-left: 9px;
+}
+
+span{
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 10px;
+    color: #e4e4e4;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:linear-gradient(to bottom, #ad2a1c 5%, #ce0100 100%);
+    background-color:rgba(255, 0, 0, 1);
+    border-radius:6px;
+    border:1px solid rgba(255, 0, 0, 1);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    background-color:#ce0100;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.result-group{
+    font-size:16px;
+    font-weight: bolder;
+}
+

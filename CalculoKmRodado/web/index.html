@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h2>Calculo por KM rodado</h2>
+            <form method="POST" action="Calculadora">
+                
+                <div class="form-group">
+                    <label for="vehicle">Modelo do carro: </label><input type="text" name="vehicle" id="vehicle" required/>
+                </div>
+                <div class="form-group">
+                    <label for="gas">Valor do combustível: </label><input type="text" name="gas" id="gas" required/>
+                </div>
+                <div class="form-group">
+                    <label for="average">Quantos Km/L faz o veículo: </label><input type="text" name="average" id="average" required/>
+                </div>
+                <div class="form-group">
+                    <label for="reviewaverage">Qual o valor médio da revisão feita a cada 10.000 Km rodados: </label><input type="text" name="reviewaverage" id="reviewaverage" required/>
+                </div>
+                <div class="form-group">
+                    <label for="tirereview">Qual o valor da troca de pneus feita a cada 50.000 Km rodados: </label><input type="text" name="tirereview" id="tirereview" required/>
+                </div>               
+                <span class="form-group">*Estima-se o acréscimo de 15% no cálculo de Km rodado devido a desgaste e desvalorização do veículo.</span>
+                
+                <div class="form-group">
+                    <button class="myButton" type="submit">Calcular</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
